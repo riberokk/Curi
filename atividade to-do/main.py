@@ -1,5 +1,6 @@
 from functions import *
 
+# Codigo responsavel por vizualizar o menu do codigo.
 while True:
     os.system("cls")
     print("/-------------------------/")
@@ -7,10 +8,11 @@ while True:
     print("|[2] - Criar Tarefas      |")
     print("|[3] - Editar Tarefas     |")
     print("|[4] - Excluir Tarefas    |")
-    print("|[5] - Sair")
+    print("|[5] - Sair               |")
     print("|-------------------------/")
     menu = int(input("--> "))
 
+#Codigos responsaveis por importar "os DEF" do arquivo "functions.py"
     if menu == 1:
         visualizar()
 
