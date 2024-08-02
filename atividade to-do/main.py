@@ -7,6 +7,7 @@ while True:
     print("|[2] - Criar Tarefas      |")
     print("|[3] - Editar Tarefas     |")
     print("|[4] - Excluir Tarefas    |")
+    print("|[5] - Sair")
     print("|-------------------------/")
     menu = int(input("--> "))
 
@@ -21,3 +22,7 @@ while True:
 
     if menu == 4:
         excluir()
+
+    if menu == 5:
+        time.sleep(1)
+        break
